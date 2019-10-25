@@ -2,7 +2,7 @@
 window.onload=function() {
 	canv=document.getElementById("gc");
 	ctx=canv.getContext("2d");
-    setup(15);
+    setup(75);
     let fps = 25;
     setInterval(main,1000/fps);
 }
